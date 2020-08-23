@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+}
+
+.box-grey {
+    display: flex;
+}
+
+.box1 {
+    display: block;
+    width: 5%;
+}
+
+.box-orange {
+    width: 100%;
+    height: 1000px;
+    background: #fa500f;
+}
+
+.box-black {
+    width: 100%;
+    height: 70px;
+    background: black;
+}
+
+.box2 {
+    width: 95%;
+}
+
+.box-green {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 95%;
+    height: 163px;
+    background: #3cff00;
+}
+
+.box-magenta {
+    width: 100%;
+    height: 94px;
+    background: magenta;
+}
+
+.box-main {
+    display: flex;
+    width: 100%;
+}
+
+.box-pink {
+    width: 81%;
+    height: 838px;
+    background: pink;
+}
+
+.box-pink-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 18px 0 10px;
+    width: 98%;
+    height: 266px;
+    background: aqua;
+}
+
+.box-peru {
+    width: 72%;
+    height: 266px;
+    background: peru;
+}
+
+.box-teal {
+    width: 27%;
+    height: 266px;
+    background: teal;
+}
+
+.box-pink-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 18px 0 10px;
+    width: 98%;
+    height: 508px;
+    background: slateblue;
+}
+
+.box-coral {
+    width: 45%;
+    height: 508px;
+    background: coral;
+}
+
+.box-gold {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 54%;
+    height: 509px;
+    background: gold;
+}
+
+.box-purple {
+    width: 100%;
+    height: 245px;
+    background: purple;
+}
+
+.box-snow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 245px;
+    background: snow;
+}
+
+.box-indigo {
+    width: 49%;
+    height: 245px;
+    background: indigo;
+}
+
+.box-maroon {
+    width: 49%;
+    height: 245px;
+    background: maroon;
+}
+
+.box-olive {
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+}
+
+.box-sky-blue {
+    width: 100%;
+    height: 48px;
+    background: #87CEEB;
+}
+
+.box-yellow {
+    display: flex;
+    flex-direction: column;
+    width: 81%;
+    height: 560px;
+    background: yellow;
+}
+
+.box-hotpink {
+    width: 100%;
+    height: 88px;
+    background: hotpink;
+    border: 2px solid lightslategrey;
+}
+
+.box-blue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 27% 12% 6%;
+    width: 81%;
+    height: 276px;
+    background: blue;
+}
+
+.socials {
+    width: 28%;
+    height: 55px;
+    background: palegreen;
+    border: 2px solid green;
+}

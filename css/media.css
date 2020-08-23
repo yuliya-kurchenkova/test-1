@@ -1,0 +1,41 @@
+    @media (max-width: 768px) {
+        .box-orange {
+            display: none;
+        }
+        .box-main {
+            flex-direction: column;
+        }
+        .box2 {
+            width: 100%;
+        }
+        .box-pink {
+            width: 95%;
+        }
+        .box-olive {
+            flex-direction: row;
+            width: 95%;
+        }
+        .box-yellow {
+            width: 95%;
+            height: 350px;
+        }
+        .box-blue {
+            width: 50%;
+        }
+        .box-hotpink {
+            width: 50%;
+        }
+        .socials {
+            width: 40%;
+            padding: 10%;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .box-pink-header {
+            flex-direction: column;
+        }
+        .box-peru {
+            width: 100%;
+        }
+    }
